@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
     <div id="app"></div>
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
@@ -15,18 +14,30 @@
     <!-- Babel Script -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
-        function Header(props) {
-            return <h1> Hello </h1>
-        }
-        function Home() {
-            return (
-                <div>
-                    <Header title="Apprendre React" />
-                </div>
-            )
-        }
-        ReactDOM.render(<Home />, app)
+        const app1 = document.getElementById('app1');ReactDOM.render(<h1>Dh html créé avec React</h1>, app);
     </script>
+
+    <script type="text/jsx">
+        const app2 = document.getElementById("app2")
+        
+        function Header(){
+            return <h1>Hello</h1>
+        }
+        ReactDOM.render(</Header>, app2);
+    </script>
+
+    <h2>
+        Isitech
+    </h2>
+    <p>
+        Liste de module
+    </p>
+    <ul>
+        <li>Technique de gestion de projet</li>
+        <li>Conception graphique</li>
+        <li>Node JS</li>
+        <li>React</li>
+    </ul>
 </body>
 
 </html>

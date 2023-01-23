@@ -10,3 +10,9 @@ Les composants vous permettent de construire des bouts de code autonomes et réu
 Modularité
 
 un composent est une fonction qui renvoie du JSX
+
+
+Les elements HTML ont des attribues
+
+Props permet de passer des information a des composents personnaliser
+Props peut servir un composent
