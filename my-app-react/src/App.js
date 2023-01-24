@@ -29,7 +29,22 @@ function App() {
     <div>
       <h2>C'est parti</h2>
       <Tab items={Tab} />
-    </div>
+    </div> 
+  );  return (
+    <div>
+      <h2>C'est parti</h2>
+      <Tab items={Tab} />
+    </div> 
+  );  return (
+    <div>
+      <h2>C'est parti</h2>
+      <Tab items={Tab} />
+    </div> 
+  );  return (
+    <div>
+      <h2>C'est parti</h2>
+      <Tab items={Tab} />
+    </div> 
   );
 }
 
