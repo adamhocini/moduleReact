@@ -18,3 +18,7 @@ Props permet de passer des information a des composents personnaliser
 Props peut servir un composent
 
 map affiche le nouveau tableau
+
+Hook = accrocher /stock 
+
+useState

@@ -15,16 +15,17 @@
     <!-- Babel Script -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/jsx">
-        function Home(){
-            // let compteur = 0;
-            const [compteur, setCompteur] = React.useState(0)
-            function handleClick(){
-                setCompteur(compteur + 1);
-                console.log(compteur + 1);
-            }
-        return (
-            <div>
-                <button onClick={handleClick}>Compteur {compteur}</button>
+        function Header(props) {
+            return <h1> Hello </h1>
+        }
+        function Home() {
+            const names = ['Jhon DOe', 'Foo Bar', 'Linus T.']
+            return (
+                <div>
+                    <Header title="Apprendre React" />
+                    <ul>
+                        <li>{names}</li>
+                    </ul>
                 </div>
             )
         }
