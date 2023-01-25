@@ -1,5 +1,5 @@
 import './App.css';
-import Depenses from './depenses/Depenses';
+import Depenses from './Component/Depenses';
 
 function App() {
   const mesFaussesDepenses = [
@@ -37,6 +37,9 @@ function App() {
 
   return (
     <div className="App">
+      <card
+      title=''
+      />
       <h1>Composant App</h1>
       <Depenses test="test value" mesDepenses={mesFaussesDepenses}/>
     </div>

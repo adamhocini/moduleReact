@@ -2,7 +2,7 @@ import './Depenses.css'
 
 const Depenses = ({ mesDepenses }) => {
     return (
-        <div>
+        <div class="card">
             <h1> Composant Depenses </h1>
             <ul>
                 {mesDepenses.map((maDepense) => {
@@ -14,5 +14,6 @@ const Depenses = ({ mesDepenses }) => {
         </div>
     );
 }
+
 
 export default Depenses;
