@@ -22,3 +22,21 @@ map affiche le nouveau tableau
 Hook = accrocher /stock 
 
 useState
+
+
+Node module = Module - dependance 
+
+On peut passer un composants d'un parent a un enfant 
+Add.
+
+jsx => passe une reference 
+
+Setstate = ajoute des nouvel donnée en prenant en compte les precedantes
+
+Spraid operator [...]
+
+valeur booléenne ex: {!isEditing &&
+    
+}
+
+envent.preventdefault(). empeche de rechager la page
