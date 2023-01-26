@@ -2,13 +2,17 @@ import React, { useState } from 'react'
 
 export default function MyForm(props) {
 
+    //fonction Hook
     const [lastName, setLastName] = useState("")
     const [firstName, setFirstName] = useState("")
     const [maison, setMaison] = useState("")
     const [classe, setClasse] = useState("")
+
+    // Permet de gérer la soumission du formulaire
     function onSubmit(e){
         e.preventDefault()
 
+        // Créer un objet avec les données du formulaire transmit à la fonction prop onSubmit.
         const data = {
             lastName,
             firstName,
@@ -16,6 +20,7 @@ export default function MyForm(props) {
             classe
         }
     
+        // Appele la fonction prop onSubmit et passe l'objet de données.
         props.onSubmit(data);
     }
 
