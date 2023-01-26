@@ -14,6 +14,8 @@ function App() {
   }
 
   return (
+    //Utilisation du composant MyForm avec l'attribut onSubmit pour passer la fonction handleSubmit
+    //MyList avec l'attribut data pour passer l'état formResult
     <div className="App">
       <MyForm onSubmit={handleSubmit}></MyForm>
       <MyList data={formResult}></MyList>
