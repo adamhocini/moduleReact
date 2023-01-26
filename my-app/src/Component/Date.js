@@ -12,7 +12,6 @@ const Dates = ({ Dates_dachat }) => {
                 })
                 }
             </ul>{" "}
-
         </div>
     );
 }
