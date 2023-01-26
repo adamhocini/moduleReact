@@ -1,16 +1,18 @@
 import './App.css';
 import MyForm from './components/MyForm'
-
+import MyList from './components/MyList'
 
 function App() {
+  const [formResult, setFormResult] = useState([])
 
-  const MonFormulaire = [
-    {Nom: 'Marie',
-    Age: 21}
-  ]
+  function handleChange(data){
+    setFormResult(data)
+  }
+
   return (
     <div className="App">
-      <MyForm></MyForm>
+      <MyForm />
+      <MyList data={formResult}></MyList>
     </div>
   );
 }
